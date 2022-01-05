@@ -387,7 +387,6 @@ section .text span {
   background-color: #fff;
   margin-top: 1rem;
   padding: 1rem;
-  max-width: 490px;
   max-height: 50px;
   overflow-y: scroll;
   border-radius: 1rem;
@@ -499,9 +498,5 @@ section .text span {
 @media screen and (min-width: 1200px) {
   .container {
     width: 80%;
-  }
-
-  .container-list-prize {
-    width: 100%;
   }
 }
