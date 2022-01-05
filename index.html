@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sorteo de Rifa</title>
+  </head>
+  <body>
+    <!-- popup -->
+    <div id="popup" class="popup">
+      <h2></h2>
+      <p></p>
+      <button>Cerrar</button>
+    </div>
+
+    <div class="container blur">
+      <header class="header">
+        <section>
+          <h2 class="text">Sorteo de rifa</h2>
+        </section>
+      </header>
+      <aside class="container-losing-numbers">
+        <h3>Números al agua</h3>
+        <div></div>
+      </aside>
+
+      <section class="giveaway-setup">
+        <div>
+          <label for="total-number">Total números de rifa: </label>
+          <input
+            id="total-number"
+            class="total-number"
+            type="text"
+            placeholder="hasta 999"
+          />
+          <input type="button" value="Aceptar" class="accept-settings-btn" />
+        </div>
+        <div>
+          <label for="enter-prize">Ingresar Premio: </label>
+          <input
+            id="enter-prize"
+            class="enter-prize"
+            type="text"
+            placeholder="Opcional"
+          />
+          <input type="button" value="Aceptar" class="enter-prize-btn" />
+        </div>
+        <div class="container-list-prize">
+          <ol></ol>
+        </div>
+      </section>
+
+      <main class="main">
+        <p></p>
+        <h2>Número sorteado</h2>
+        <div class="container-number">
+          <p></p>
+        </div>
+        <div class="container-loader none">
+          <div>
+            <div class="loader">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <p>Presione para obtener un número al Azar</p>
+
+        <div class="btn-wrapper">
+          <button class="banner-btn losers-number-btn">Al agua</button>
+          <button class="banner-btn winners-number-btn">Ganador</button>
+        </div>
+      </main>
+
+      <aside class="container-winners-numbers">
+        <h3>Números Ganadores</h3>
+        <div></div>
+      </aside>
+    </div>
+    <script src="/animation_title/anime.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
