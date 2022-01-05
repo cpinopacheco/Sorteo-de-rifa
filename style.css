@@ -22,7 +22,7 @@ body {
     "container-losing-numbers  main container-winners-numbers";
 }
 
-.giveaway-setup .container.blur.active {
+.container.blur.active {
   filter: blur(10px);
   -webkit-filter: blur(10px);
   pointer-events: none;
